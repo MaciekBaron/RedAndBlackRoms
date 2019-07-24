@@ -12,3 +12,6 @@
             | |  \ \ |___| | |   | |_____) )                               
             |_|   |_\_____/|_|   |_(______/                                
                                                                
+
+A collection of red and black roms, themed around socialism,
+anarchism, syndicalism and anti-fascism.
