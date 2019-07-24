@@ -14,4 +14,4 @@
                                                                
 
 A collection of red and black roms, themed around socialism,
-anarchism, syndicalism and anti-fascism.
+anarchism, syndicalism, communism and anti-fascism.
