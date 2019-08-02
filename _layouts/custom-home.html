@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<div class="ascii-art" role="presentation">
+<pre>
+ ______            _
+(_____ \          | |
+ _____) )_____  __| |
+|  __  /| ___ |/ _  |
+| |  \ \| ____( (_| |
+|_|   |_|_____)\____|
+</pre>
+<pre>
+                 _
+                | |
+ _____ ____   __| |
+(____ |  _ \ / _  |
+/ ___ | | | ( (_| |
+\_____|_| |_|\____|
+</pre>
+<pre>
+ ______  _              _
+(____  \| |            | |
+ ____)  ) | _____  ____| |  _
+|  __  (| |(____ |/ ___) |_/ )
+| |__)  ) |/ ___ ( (___|  _ (
+|______/ \_)_____|\____)_| \_)
+</pre>
+<pre>
+ ______
+(_____ \
+ _____) )___  ____   ___
+|  __  // _ \|    \ /___)
+| |  \ \ |_| | | | |___ |
+|_|   |_\___/|_|_|_(___/
+</pre>
+</div>
+{{ content }}
+<br/>
+<h3>List of roms</h3>
+{%- if site.posts.size > 0 -%}
+  <ul>
+    {%- for post in site.posts -%}
+    <li>
+      {%- assign date_format = "%d-%m-%Y" -%}
+      [ {{ post.date | date: date_format }} ]
+      <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      [ {{post.categories}} ]
+    </li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}

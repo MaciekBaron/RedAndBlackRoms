@@ -1,0 +1,35 @@
+---
+---
+
+// @import "{{ site.theme }}";
+
+img {
+  max-width: 100%;
+}
+
+p {
+  white-space: initial;
+}
+
+.ascii-art {
+  text-align: center;
+  margin-bottom: 1em;
+
+  > pre {
+    display: inline-block;
+    text-align: left;
+  }
+}
+
+.download {
+  margin-top: 1em;
+  font-size: 1.25em;
+}
+
+.download-link::before {
+  content: '⬇ ';
+}
+
+.source-link::before {
+  content: '✎ ';
+}
