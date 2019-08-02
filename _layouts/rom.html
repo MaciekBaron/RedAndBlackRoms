@@ -5,7 +5,7 @@ layout: post
   https://github.com/{{ page.github_user }}
 {%- endcapture -%}
 {%- capture github_url -%}
-  {{ github_user_page }}/{{ page.github_repo }}
+  {{ author_page }}/{{ page.github_repo }}
 {%- endcapture -%}
 {%- capture download_url -%}
   {{ github_url }}/releases/download/{{ page.download_version }}/{{ page.download_file }}
